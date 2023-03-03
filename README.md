@@ -38,18 +38,18 @@ second between t=0 and t=b, since the moment the pool started working till the m
 the pool started working until one second before the user deposited his tokens to stake.
 
  SUM_between_t0_and_b(  1/L(t)  )
- -----------------------------------------------------------------------------
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  ^t=0                       ^t=a                                             ^t=b
 
  SUM_between_t0_and_a-1(  1/L(t) )
- ---------------------------
+ +++++++++++++++++++++++++++
  ^t=0                      ^t=a-1
 
 If we subtract the part before the user staked to the total, we are left exclusively with the value of one token against the pool-total
 during the period between a and b, the period the user staked his tokens.
 
  SUM_between_t0_and_b(  1/L(t)  ) - SUM_between_t0_and_a-1(  1/L(t) )
- ---------------------------++++++++++++++++++++++++++++++++++++++++++++++++++
+ ===========================++++++++++++++++++++++++++++++++++++++++++++++++++
  ^t=0                       ^t=a                                             ^t=b
 
 If we multiply this number by the amount of tokens the user staked, and the reward rate we get the total amount the user is elegible to
