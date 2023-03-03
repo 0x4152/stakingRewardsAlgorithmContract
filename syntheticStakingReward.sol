@@ -13,7 +13,7 @@ pragma solidity ^0.8.0;
 //of the rewardsToken that are emmited every second, recieving 50 rewards Tokens.
 
 //The problems ocurr when keeping track of the amount of rewards each user is elegible to:
-//If we kept track of each reward amount, for each second, for each user the process would be extremely computationally intense, therefore gas-consuming.
+//If we kept track of each reward amount, for each second, for each user the process would be extremely computationally intensive, therefore gas-consuming.
 
 //The solution to this problem is leveraging an algorithm which keeps computation at minimum.
 
