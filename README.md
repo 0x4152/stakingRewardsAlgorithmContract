@@ -55,7 +55,7 @@ during the period between a and b, the period the user staked his tokens.
 If we multiply this number by the amount of tokens the user staked, and the reward rate we get the total amount the user is elegible to
 for staking user_amount_staked tokens during the period between second a and second b.
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 IMPLEMENTATION AND USE:
 
